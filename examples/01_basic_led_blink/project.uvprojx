@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_projx.xsd">
+
   <SchemaVersion>2.1</SchemaVersion>
+
   <Header>### uVision Project, (C) Keil Software</Header>
+
   <Targets>
     <Target>
       <TargetName>rt-thread</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::.\ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>ARMCM3</Device>
           <Vendor>ARM</Vendor>
-          <PackID>ARM.CMSIS.5.4.0</PackID>
+          <PackID>ARM.CMSIS.5.7.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000,0x00020000) IROM(0x00000000,0x00040000) CPUTYPE("Cortex-M3") CLOCK(12000000) ESEL ELITTLE</Cpu>
-          <FlashUtilSpec />
-          <StartupFile />
+          <FlashUtilSpec></FlashUtilSpec>
+          <StartupFile></StartupFile>
           <FlashDriverDll>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000)</FlashDriverDll>
           <DeviceId>0</DeviceId>
           <RegisterFile>$$Device:ARMCM3$Device\ARM\ARMCM3\Include\ARMCM3.h</RegisterFile>
-          <MemoryEnv />
-          <Cmp />
-          <Asm />
-          <Linker />
-          <OHString />
-          <InfinionOptionDll />
-          <SLE66CMisc />
-          <SLE66AMisc />
-          <SLE66LinkerMisc />
+          <MemoryEnv></MemoryEnv>
+          <Cmp></Cmp>
+          <Asm></Asm>
+          <Linker></Linker>
+          <OHString></OHString>
+          <InfinionOptionDll></InfinionOptionDll>
+          <SLE66CMisc></SLE66CMisc>
+          <SLE66AMisc></SLE66AMisc>
+          <SLE66LinkerMisc></SLE66LinkerMisc>
           <SFDFile>$$Device:ARMCM3$Device\ARM\SVD\ARMCM3.svd</SFDFile>
           <bCustSvd>0</bCustSvd>
           <UseEnv>0</UseEnv>
-          <BinPath />
-          <IncludePath />
-          <LibPath />
-          <RegisterFilePath />
-          <DBRegisterFilePath />
+          <BinPath></BinPath>
+          <IncludePath></IncludePath>
+          <LibPath></LibPath>
+          <RegisterFilePath></RegisterFilePath>
+          <DBRegisterFilePath></DBRegisterFilePath>
           <TargetStatus>
             <Error>0</Error>
             <ExitCodeStop>0</ExitCodeStop>
@@ -59,8 +62,8 @@
           <BeforeCompile>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name />
-            <UserProg2Name />
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopU1X>0</nStopU1X>
@@ -69,8 +72,8 @@
           <BeforeMake>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name />
-            <UserProg2Name />
+            <UserProg1Name></UserProg1Name>
+            <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
             <nStopB1X>0</nStopB1X>
@@ -87,7 +90,7 @@
             <nStopA2X>0</nStopA2X>
           </AfterMake>
           <SelectedForBatchBuild>0</SelectedForBatchBuild>
-          <SVCSIdString />
+          <SVCSIdString></SVCSIdString>
         </TargetCommonOption>
         <CommonProperty>
           <UseCPPCompiler>0</UseCPPCompiler>
@@ -101,8 +104,8 @@
           <AssembleAssemblyFile>0</AssembleAssemblyFile>
           <PublicsOnly>0</PublicsOnly>
           <StopOnExitCode>3</StopOnExitCode>
-          <CustomArgument />
-          <IncludeLibraryModules />
+          <CustomArgument></CustomArgument>
+          <IncludeLibraryModules></IncludeLibraryModules>
           <ComprImg>1</ComprImg>
         </CommonProperty>
         <DllOption>
@@ -133,13 +136,13 @@
             <Capability>1</Capability>
             <DriverSelection>4100</DriverSelection>
           </Flash1>
-          <bUseTDR>0</bUseTDR>
+          <bUseTDR>1</bUseTDR>
           <Flash2>Segger\JL2CM3.dll</Flash2>
           <Flash3>"" ()</Flash3>
-          <Flash4 />
-          <pFcarmOut />
-          <pFcarmGrp />
-          <pFcArmRoot />
+          <Flash4></Flash4>
+          <pFcarmOut></pFcarmOut>
+          <pFcarmGrp></pFcarmGrp>
+          <pFcArmRoot></pFcArmRoot>
           <FcArmLst>0</FcArmLst>
         </Utilities>
         <TargetArmAds>
@@ -172,7 +175,7 @@
             <RvctClst>0</RvctClst>
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M3"</AdsCpuType>
-            <RvctDeviceName />
+            <RvctDeviceName></RvctDeviceName>
             <mOS>0</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
@@ -182,6 +185,7 @@
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
             <RvdsMve>0</RvdsMve>
+            <RvdsCdeCp>0</RvdsCdeCp>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -305,7 +309,7 @@
                 <Size>0x14000</Size>
               </OCR_RVCT10>
             </OnChipMemories>
-            <RvctStartVector />
+            <RvctStartVector></RvctStartVector>
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
@@ -334,7 +338,7 @@
             <VariousControls>
               <MiscControls>--c99 --gnu</MiscControls>
               <Define>RT_USING_ARM_LIBC, WM_W600</Define>
-              <Undefine />
+              <Undefine></Undefine>
               <IncludePath>.;..\..\rt-thread\include;.;applications;..\..\rt-thread\libcpu\arm\common;..\..\rt-thread\libcpu\arm\cortex-m3;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\finsh;..\..\rt-thread\components\libc\compilers\armlibc;..\..\rt-thread\components\libc\compilers\common;..\..\libraries\WM_Libraries;..\..\libraries\WM_Libraries\Include;..\..\libraries\WM_Libraries\Include\Driver;..\..\libraries\WM_Libraries\Platform\Drivers\spi;..\..\libraries\WM_Libraries\Include\OS;..\..\libraries\WM_Libraries\Include\Platform;..\..\libraries\WM_Libraries\Include\OS;..\..\libraries\WM_Libraries\Include\WiFi;..\..\libraries\WM_Libraries\Platform\Inc;..\..\libraries\WM_Libraries\Platform\Common\Params;..\..\libraries\WM_Libraries\Platform\Common\crypto;..\..\libraries\WM_Libraries\Platform\Common\crypto\digest;..\..\libraries\WM_Libraries\Platform\Common\crypto\math;..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric;..\..\libraries\WM_Libraries\Platform\Boot\gcc;..\..\drivers</IncludePath>
             </VariousControls>
           </Cads>
@@ -348,12 +352,12 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <uClangAs>0</uClangAs>
+            <ClangAsOpt>4</ClangAsOpt>
             <VariousControls>
-              <MiscControls />
-              <Define />
-              <Undefine />
-              <IncludePath />
+              <MiscControls></MiscControls>
+              <Define></Define>
+              <Undefine></Undefine>
+              <IncludePath></IncludePath>
             </VariousControls>
           </Aads>
           <LDads>
@@ -365,13 +369,13 @@
             <useFile>0</useFile>
             <TextAddressRange>0x08000000</TextAddressRange>
             <DataAddressRange>0x20000000</DataAddressRange>
-            <pXoBase />
+            <pXoBase></pXoBase>
             <ScatterFile>..\..\drivers\linker_scripts\link.sct</ScatterFile>
-            <IncludeLibs />
-            <IncludeLibsPath />
+            <IncludeLibs></IncludeLibs>
+            <IncludeLibsPath></IncludeLibsPath>
             <Misc> --diag_suppress=L6314 --diag_suppress=L6329</Misc>
-            <LinkerInputFile />
-            <DisabledWarnings />
+            <LinkerInputFile></LinkerInputFile>
+            <DisabledWarnings></DisabledWarnings>
           </LDads>
         </TargetArmAds>
       </TargetOption>
@@ -384,99 +388,71 @@
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\clock.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>components.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\components.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>cpu.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\cpu.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>device.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\device.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>idle.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\idle.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>ipc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\ipc.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>irq.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\irq.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>kservice.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\kservice.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>mem.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\mem.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>mempool.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\mempool.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>object.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\object.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>scheduler.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\scheduler.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>signal.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\signal.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>thread.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\src\thread.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>timer.c</FileName>
               <FileType>1</FileType>
@@ -502,29 +478,21 @@
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\libcpu\arm\common\backtrace.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>div0.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\libcpu\arm\common\div0.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>showmem.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\libcpu\arm\common\showmem.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>cpuport.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\libcpu\arm\cortex-m3\cpuport.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>context_rvds.S</FileName>
               <FileType>2</FileType>
@@ -540,57 +508,41 @@
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\misc\pin.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>serial.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\serial\serial.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>completion.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\src\completion.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>dataqueue.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\src\dataqueue.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>pipe.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\src\pipe.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>ringblk_buf.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\src\ringblk_buf.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>ringbuffer.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\src\ringbuffer.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>waitqueue.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\src\waitqueue.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>workqueue.c</FileName>
               <FileType>1</FileType>
@@ -606,36 +558,26 @@
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\finsh\shell.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>symbol.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\finsh\symbol.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>cmd.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\finsh\cmd.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>msh.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\finsh\msh.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>msh_cmd.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\finsh\msh_cmd.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>msh_file.c</FileName>
               <FileType>1</FileType>
@@ -651,29 +593,21 @@
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\libc\compilers\armlibc\libc.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>mem_std.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\libc\compilers\armlibc\mem_std.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>stubs.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\libc\compilers\armlibc\stubs.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>time.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\libc\compilers\armlibc\time.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>gmtime_r.c</FileName>
               <FileType>1</FileType>
@@ -689,323 +623,231 @@
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\cpu\wm_cpu.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\gpio\wm_gpio.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_io.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\io\wm_io.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_gpio_afsel.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\gpio\wm_gpio_afsel.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_irq.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\irq\wm_irq.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_efuse.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\efuse\wm_efuse.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_internal_fls.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\internalflash\wm_internal_fls.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_hostspi.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\spi\wm_hostspi.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_fls.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\flash\wm_fls.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_fls_gd25qxx.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\flash\wm_fls_gd25qxx.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_dma.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\dma\wm_dma.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_timer.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\timer\wm_timer.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_watchdog.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\watchdog\wm_watchdog.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_i2c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\i2c\wm_i2c.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_pwm.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\pwm\wm_pwm.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_adc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\adc\wm_adc.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_pmu.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\pmu\wm_pmu.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_rtc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Drivers\rtc\wm_rtc.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_param.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\Params\wm_param.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_fwup.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\fwup\wm_fwup.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_hard.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\wm_crypto_hard.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_hmac.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\digest\wm_crypto_hmac.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_md2.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\digest\wm_crypto_md2.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_md4.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\digest\wm_crypto_md4.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>sha224.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\digest\sha224.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>sha384.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\digest\sha384.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_sha512.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\digest\wm_crypto_sha512.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>asn1.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\keyformat\asn1.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_base64.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\keyformat\wm_crypto_base64.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_x509.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\keyformat\wm_crypto_x509.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>pstm_mul_comba.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\math\pstm_mul_comba.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>prng.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\prng\prng.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>yarrow.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\prng\yarrow.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>dh.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\pubkey\dh.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>ecc.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\pubkey\ecc.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>pkcs.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\pubkey\pkcs.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>pubkey.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\pubkey\pubkey.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>wm_crypto_rsa.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\pubkey\wm_crypto_rsa.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>aesGCM.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric\aesGCM.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>des3.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric\des3.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>idea.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric\idea.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>rc2.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric\rc2.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>seed.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric\seed.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>rtthread_patch.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\rtthread\rtthread_patch.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>utils.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\libraries\WM_Libraries\rtthread\utils\utils.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>startup_venus.S</FileName>
               <FileType>2</FileType>
               <FilePath>..\..\libraries\WM_Libraries\rtthread\startup\armcc\startup_venus.S</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>misc.c</FileName>
               <FileType>1</FileType>
@@ -1013,7 +855,8 @@
             </File>
           </Files>
         </Group>
-        <Group>Libraries<GroupName>Libraries</GroupName>
+        <Group>
+          <GroupName>Libraries</GroupName>
           <Files>
             <File>
               <FileName>libwlan_mdk.lib</FileName>
@@ -1030,29 +873,21 @@
               <FileType>1</FileType>
               <FilePath>..\..\drivers\board.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>drv_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\drivers\drv_uart.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>drv_flash.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\drivers\drv_flash.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>pin_map.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\drivers\pin_map.c</FilePath>
             </File>
-          </Files>
-          <Files>
             <File>
               <FileName>drv_pin.c</FileName>
               <FileType>1</FileType>
@@ -1060,12 +895,39 @@
             </File>
           </Files>
         </Group>
+        <Group>
+          <GroupName>Doc</GroupName>
+          <Files>
+            <File>
+              <FileName>实验结果.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\applications\实验结果.txt</FilePath>
+            </File>
+          </Files>
+        </Group>
       </Groups>
     </Target>
   </Targets>
+
   <RTE>
-    <apis />
-    <components />
-    <files />
+    <apis/>
+    <components/>
+    <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>&lt;Project Info&gt;</LayName>
+        <LayDesc></LayDesc>
+        <LayUrl></LayUrl>
+        <LayKeys></LayKeys>
+        <LayCat></LayCat>
+        <LayLic></LayLic>
+        <LayTarg>0</LayTarg>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
+
 </Project>

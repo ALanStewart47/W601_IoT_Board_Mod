@@ -1,0 +1,7 @@
+功能：
+1、在原有基础上加入奇偶数检查，输入为偶数返回1；
+2、接上串口会打印count的值，只会显示偶数，故奇偶检查函数有效。
+
+备注：
+1、下载需要把下载算法(W60X_QFlash.FLM)放到MDK的ARM\flash文件夹中（不确定是不是，有点忘了）
+2、然后在Option-->Utilities-->Configure Flash Menu Command-->Use Debug Driver，勾选Use Debug Driver
